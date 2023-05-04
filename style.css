@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f3f4f6;
+    color: #1d1e22;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+input[type="email"]{
+    background: transparent;
+    background-color: #f6f6f6;
+    border: none;
+    margin-bottom: 30px;
+    width: 350px;
+}
+
+input[type="password"]{
+    background: transparent;
+    background-color: #f6f6f6;
+    border: none;
+}
+
+.login-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.login-card {
+    width: 500px;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 0 3px 50px 0 rgba(0, 0, 0, 0.2), 0 1px 50px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 45px;
+}
+
+.login-card-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 65px;
+    margin: 65px 30px 30px;
+    width: auto;
+    height: auto;
+}
+
+.btn{
+    margin-left: 22%;
+    padding: 13px 80px 13px 80px !important;
+    border-radius: 15px !important;
+    border: none!important;
+    font-weight: 700 !important;
+    background: linear-gradient(to right,rgb(236, 192, 236),rgb(34, 2, 34));
+}
+
+.forgot-password-item {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.forgot-password-item a{
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.forgot-password-item a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.create-account-item {
+    margin-top: 10px;
+    margin-left: 61px;
+}
+
+.create-account-item span{
+    font-weight: 700;
+    font-size: 15px;
+    color: #000;
+}
+
+.create-account-item a{
+    color: #000;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.create-account-item a:hover {
+    color: #000;
+    text-decoration: none;
+}
